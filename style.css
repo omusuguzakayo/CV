@@ -1,0 +1,117 @@
+/* Whole page */
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    background-color:lightpink;
+    color: #333333;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+h1{
+font-size: 40px;
+text-transform: uppercase;
+color: #004279;
+letter-spacing: 2px;
+}
+
+h2{
+font-size: 22px;
+font-style: italic;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+h3{
+font-size: 20px;
+font-style: italic;
+
+}
+
+h4{
+    font-size: 20px;
+
+}
+
+h5{
+    font-size: 16px;
+
+}
+/*Tittle*/
+
+#info .left{
+display: inline-block;
+width:59%;    
+}
+
+#info .right{
+    display: inline-block;
+    width:39%;      
+}
+
+#info  h2 {
+   padding-top:0px;    
+}
+
+#about .left{
+    display: inline-block;
+    width:24%;    
+    }
+    
+#about .right{
+        display: inline-block;
+        width:74%;      
+}
+    
+#skills .left{
+        display: inline-block;
+        width:24%;    
+}
+        
+#skills .right{
+    display: inline-block;
+    width:74%;      
+}
+#Work .left{
+    display: inline-block;
+    width:24%;    
+}
+            
+#Work .right{
+    display: inline-block;
+     width:74%;
+        
+}
+.work-tital-left{
+    display: inline-block;
+    width:24%;    
+}
+    
+.work-tital-right{
+display: inline-block;
+width:74%;      
+}
+
+
+
+
+#education .left{
+    display: inline-block;
+    width:24%;    
+}
+    
+#education .right{
+display: inline-block;
+width:74%;      
+}
+ 
+    
+
+
+
+
+
+
+
+
