@@ -136,48 +136,62 @@ h5 {
   ******************************************************************/
 
 /* DISPLAY */
-#info .left {
-  display: inline-block;
-  width: 39%;
-  vertical-align: top;
-}
 
-#info .right {
-  display: inline-block;
-  width: 59%;
-  text-align: right;
+.paper-background {
+  background-color: white;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px auto;
 }
-.work-title-left {
-  display: inline-block;
-  width: 74%;
+/* DISPLAY */
+@media screen and (min-width: 800px) {
+  #info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px auto;
+  }
+  #info .right {
+    align-self: end;
+    text-align: right;
+  }
+  section {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+  }
 }
-.work-title-right {
-  display: inline-block;
-  width: 24%;
+@media screen and (max-width: 799px) {
+  #info .left {
+    text-align: center;
+  }
+  #info .right {
+    text-align: center;
+    margin-top: 20px;
+  }
+  section .right {
+    margin: 20px;
+  }
 }
-
-section .left {
-  display: inline-block;
-  width: 24%;
-  vertical-align: top;
+#info,
+main {
+  max-width: 1000px;
+  padding: 0 20px;
 }
-
-section .right {
-  display: inline-block;
-  width: 74%;
+main {
+  margin: 0 auto;
 }
-
 #info h1 {
   margin: 0;
 }
 #info h2 {
   margin: 0;
 }
-#info .right {
-  vertical-align: bottom;
-  text-align: right;
+.work-item {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
 }
-
+.work-title p {
+  grid-area: 2 / 1 / 3 / 3;
+}
 /* *******************************************************************
                          PROJECTS
  ********************************************************************* */
