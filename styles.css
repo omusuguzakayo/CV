@@ -53,7 +53,7 @@ h5 {
 }
 /* NAVBAR */
 
-.container {
+/*.container {
   display: flex;
   justify-content: space-between;
   height: 100%;
@@ -131,19 +131,20 @@ h5 {
   font-size: x-large;
   font-weight: bold;
 }
+*/
+
 /*****************************************************************
                             cv
   ******************************************************************/
 
 /* DISPLAY */
-
 .paper-background {
   background-color: white;
   max-width: 1000px;
   margin: 20px auto;
   padding: 20px auto;
 }
-/* DISPLAY */
+
 @media screen and (min-width: 800px) {
   #info {
     display: grid;
@@ -276,3 +277,32 @@ main {
 /* *******************************************************************
                          HOME
  ********************************************************************* */
+
+.col-12 {
+  font-size: 30px;
+  color: rgb(255, 255, 55);
+}
+
+#hello {
+  font-size: 20px;
+  color: white;
+}
+
+#my-name {
+  font-size: 50px;
+  color: white;
+}
+
+#skill {
+  font-size: 25px;
+  color: blue;
+}
+
+#desc {
+  font-size: 18px;
+  color: papayawhip;
+}
+
+#download {
+  border-radius: 8px;
+}
